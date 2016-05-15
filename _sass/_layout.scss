@@ -1,3 +1,32 @@
+/* Background */
+
+@keyframes bgimage {
+    0% {
+        background-color: #450172;
+    }
+    25% {
+        background-color: #25098f;
+    }
+    50% {
+        background-color: #056466;
+    }
+    75% {
+        background-color: #25098f;
+    }
+    100% {
+        background-color: #450172;
+    }
+}
+body {
+    margin: 0;
+    animation: bgimage 40s ease-in-out infinite alternate;
+}
+canvas#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /**
  * Site header
  */
