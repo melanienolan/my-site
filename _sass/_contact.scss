@@ -1,0 +1,33 @@
+section.contact {
+	div.icons {
+		display: flex;
+		justify-content: space-around;
+
+		div.icon {
+			width: 55px;
+			height: 55px;
+			border-radius: 100%;
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			
+			&.github {
+				background-color: #928e8e;
+				background-image: url(../assets/images/github.svg);
+				background-size: 30px 30px;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+			&.codepen {
+				background-color: #928e8e;
+				background-image: url(../assets/images/codepen.svg);
+				background-size: 30px 30px;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+}
