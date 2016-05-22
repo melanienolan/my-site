@@ -2,17 +2,19 @@ section.home {
 	background-color: transparent;
 
 	div.photo {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 		background-color: grey;
 		border-radius: 100%;
 		border: 2px solid #ffffff;
-		margin: 100px auto;
+		margin: 50px auto;
 	}
 
 	h1 {
+		font-family: Rock Salt;
 		color: #ffffff;
-		font-size: 42px;
+		font-size: 32px;
+		line-height: 2;
 		text-transform: uppercase;
 		text-align: center;
 		font-weight: bold;
@@ -20,5 +22,6 @@ section.home {
 	p {
 		text-transform: uppercase;
 		text-align: center;
+		color: #acacac;
 	}
 }

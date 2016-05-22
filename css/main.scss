@@ -4,6 +4,13 @@
 @charset "utf-8";
 
 // Fonts
+
+@font-face {
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/RockSalt.ttf) format('truetype');
+}
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
