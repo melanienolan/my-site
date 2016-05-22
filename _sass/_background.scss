@@ -1,5 +1,56 @@
 /* Background */
 
+@-webkit-keyframes bgimage {
+    0% {
+        background-color: #450172;
+    }
+    25% {
+        background-color: #25098f;
+    }
+    50% {
+        background-color: #056466;
+    }
+    75% {
+        background-color: #25098f;
+    }
+    100% {
+        background-color: #450172;
+    }
+}
+@-moz-keyframes bgimage {
+    0% {
+        background-color: #450172;
+    }
+    25% {
+        background-color: #25098f;
+    }
+    50% {
+        background-color: #056466;
+    }
+    75% {
+        background-color: #25098f;
+    }
+    100% {
+        background-color: #450172;
+    }
+}
+@-o-keyframes bgimage {
+    0% {
+        background-color: #450172;
+    }
+    25% {
+        background-color: #25098f;
+    }
+    50% {
+        background-color: #056466;
+    }
+    75% {
+        background-color: #25098f;
+    }
+    100% {
+        background-color: #450172;
+    }
+}
 @keyframes bgimage {
     0% {
         background-color: #450172;
@@ -17,9 +68,13 @@
         background-color: #450172;
     }
 }
+
 body {
     margin: 0;
     background-color: #450172;
+    -webkit-animation: bgimage 40s ease-in-out infinite alternate;
+    -moz-animation: bgimage 40s ease-in-out infinite alternate;
+    -o-animation: bgimage 40s ease-in-out infinite alternate;
     animation: bgimage 40s ease-in-out infinite alternate;
     background-image: -webkit-gradient(linear, rgba(0,0,0,0.1), rgba(255,255,255,0.9));
     background-image: -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.9));
