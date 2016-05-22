@@ -19,7 +19,12 @@
 }
 body {
     margin: 0;
+    background-color: #450172;
     animation: bgimage 40s ease-in-out infinite alternate;
+    background-image: -webkit-gradient(linear, rgba(0,0,0,0.1), rgba(255,255,255,0.9));
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.9));
+    background-image: -moz-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.9));
+    background-image: -o-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.9));
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.9));
 }
 canvas#background {
@@ -27,3 +32,4 @@ canvas#background {
     top: 0;
     left: 0;
 }
+
