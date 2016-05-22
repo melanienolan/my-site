@@ -1,20 +1,24 @@
-div.photo {
-	width: 200px;
-	height: 200px;
-	background-color: grey;
-	border-radius: 100%;
-	border: 2px solid #ffffff;
-	margin: 100px auto;
-}
+section.home {
+	background-color: transparent;
 
-h1 {
-	color: #ffffff;
-	font-size: 42px;
-	text-transform: uppercase;
-	text-align: center;
-}
-.home p {
-	text-transform: uppercase;
-	text-align: center;
-}
+	div.photo {
+		width: 200px;
+		height: 200px;
+		background-color: grey;
+		border-radius: 100%;
+		border: 2px solid #ffffff;
+		margin: 100px auto;
+	}
 
+	h1 {
+		color: #ffffff;
+		font-size: 42px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: bold;
+	}
+	p {
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
