@@ -20,6 +20,7 @@
 body {
     margin: 0;
     animation: bgimage 40s ease-in-out infinite alternate;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.9));
 }
 canvas#background {
     position: absolute;
