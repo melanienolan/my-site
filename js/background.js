@@ -1,8 +1,8 @@
 var canvas = document.querySelector("canvas#background");
 			var ctx = canvas.getContext("2d");
 
-			canvas.width = window.innerWidth;
-			canvas.height = window.innerHeight;
+			canvas.width = document.body.clientWidth;
+			canvas.height = document.body.clientHeight;
 
 			var W = canvas.width;
 			var H = canvas.height;
